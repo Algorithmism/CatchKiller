@@ -56,11 +56,49 @@ class Parser:
         return result
 
 
+
+class HamMatrix:
+
+    """
+    Calculates the hamming distance of two sequences.
+
+
+    """
+
+    # calculates the distance | returns an integer
+    def distCalc( dataVals, susVals):
+        mismatch_list = []
+
+        # for every sequence
+        for i in range(len(dataVals)):
+            # sum mismatches variable
+            mismatch = 0
+
+            # for every char in the sequences
+            for j in range(len(susVals[0])):
+                # get sum of mismatch
+                if( dataVals[i][j] != susVals[0][j] ):
+                    mismatch = 1 + mismatch
+            mismatch_list.append(mismatch)
+
+        return mismatch_list
+
+
+
+
+
+
+
 dataName = "/home/marokima/PycharmProjects/CatchKiller/data/test.fasta"
 suspectName = "/home/marokima/PycharmProjects/CatchKiller/data/query-sequence.fasta"
 
+#dictionaries
 data = Parser.parse_sequences(dataName)
 suspect = Parser.parse_sequences(suspectName)
-print(data)
-print('\n')
-print(suspect)
+
+#lists of values
+dataValues = list(data.values())
+suspectValue = list(suspect.values())
+
+
+distance = HamMatrix.distCalc(dataValues, suspectValue)

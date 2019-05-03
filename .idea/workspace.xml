@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PythonFiles/CatchKiller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+            <state relative-caret-position="389">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
               <folding>
                 <element signature="e#499#534#0" expanded="true" />
               </folding>
@@ -32,6 +32,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>,</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556849840871</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Parser Class Completed">
+      <created>1556868191199</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556868191199</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -175,13 +187,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Python File Initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Python File Initialization" />
+    <MESSAGE value="Parser Class Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parser Class Completed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PythonFiles/CatchKiller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+        <state relative-caret-position="389">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
           <folding>
             <element signature="e#499#534#0" expanded="true" />
           </folding>
