@@ -23,10 +23,6 @@ class Parser:
     key = name
     value = sequence
 
-    Source: Broseph's Post from https://stackoverflow.com/questions/22698807/parse-fasta-sequence-to-the-dictionary
-
-    In class, it was mentioned that this is the only portion student's are allowed to look at the methods of others.
-
     """
 
 
